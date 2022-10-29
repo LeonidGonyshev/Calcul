@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+button {
+    outline: none;
+    padding: 22px;
+    border: 1px solid green;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: transparent;
+}
+.display-answer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    border: 1px solid #000;
+    background-color: aqua;
+}
+.display-write {
+    height: 75px;
+}
+.wrapper {
+    width: 300px;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    padding: 15px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 3px solid #000;
+}
+.zero {
+    padding: 22px 52px;
+}
